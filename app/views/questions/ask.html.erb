@@ -1,0 +1,6 @@
+<h1 class="p-1" >STUPID COACH</h1>
+<p class="p-1">Ask your coach anything :</p>
+<form class="form-inline mx-sm-3 mb-4" action="answer"  data-turbo="false">
+  <input type="text"class="form-control-file" placeholder="Question" name="question">
+  <button type="submit" class="btn btn-primary mb-2" value="<%= params[:question] %>">Submit</button>
+</form>

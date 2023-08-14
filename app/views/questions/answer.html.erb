@@ -1,0 +1,15 @@
+<div>
+  <span class="card border-left border-dark p-2">
+    <p><%= @question%></p>
+    <p>-You</p>
+  </span>
+</div>
+
+<div>
+  <span class="card border-left border-dark p-2">
+    <p>-<%= @answer%></p>
+    <p>-Your coach</p>
+  </span>
+</div>
+
+<%= link_to "Ask another question", ask_path %>
